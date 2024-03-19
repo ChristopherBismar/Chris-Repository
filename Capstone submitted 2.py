@@ -247,7 +247,7 @@ def delete_worker():
         print("Pililah Index yang benar")
         
     view_workers()
-    menu()
+    delete_workerMain()
 
 def menu():
     while True:
