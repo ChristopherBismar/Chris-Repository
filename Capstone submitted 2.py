@@ -87,7 +87,7 @@ def add_workerMain():
 
 def add_worker():
     print("Tambahkan data pekerja:" )
-    Index = input("Masukan Index pekerja: ")
+    Index = int(input("Masukan Index pekerja: "))
     for i in range(len(employee_data)):
         print(employee_data[i]['Index'])
         if Index == employee_data[i]['Index']:
